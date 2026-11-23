@@ -2,7 +2,7 @@
 ! Description: 個人用 Brave カスタムフィルタ（https://github.com/tikari77/bravefilter）
 ! Homepage: https://github.com/tikari77/bravefilter
 ! Expires: 1 day
-! Version: 202611231358
+! Version: 202611231406
 
 ! --- 10-general.txt ---
 ! ===== 全サイト共通 =====
@@ -57,6 +57,11 @@ ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ボーイズラブ):upward(1
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(オメガバース):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(腐男子):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(BL):upward(1)
+! --- 販売形態 ---
+! タイマー無料（表紙に「タイマー無料」バッジ画像が付く作品）
+ebookjapan.yahoo.co.jp##li:has(> a[href*="/books/"] img[alt="タイマー無料"])
+! 単話作品（タイトルに【単話版】【単話売】【単話】など）
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(単話):upward(1)
 
 ! --- 90-allow.txt ---
 ! ===== 例外（ブロック解除） =====
