@@ -2,7 +2,7 @@
 ! Description: 個人用 Brave カスタムフィルタ（https://github.com/tikari77/bravefilter）
 ! Homepage: https://github.com/tikari77/bravefilter
 ! Expires: 1 day
-! Version: 202611231353
+! Version: 202611231358
 
 ! --- 10-general.txt ---
 ! ===== 全サイト共通 =====

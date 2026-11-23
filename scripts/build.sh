@@ -16,7 +16,7 @@ tmp=$(mktemp)
   done
 } > "$tmp"
 # 重複ルール警告（コメント・空行除く）
-dups=$(grep -v -e '^!' -e '^$' "$tmp" | sort | uniq -d || true)
+dups=$(grep -v -e '^!' -e '^$' "$tmp" | LC_ALL=C sort | LC_ALL=C uniq -d || true)
 [ -n "$dups" ] && { echo "⚠️ 重複ルール:"; echo "$dups"; } >&2
 mv "$tmp" "$out"
 echo "built $out ($(grep -cv -e '^!' -e '^$' "$out" || true) rules)"
