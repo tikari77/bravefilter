@@ -19,7 +19,13 @@ Brave 用の個人カスタムフィルタリスト（Adblock Plus / uBlock 形�
    ```
    https://raw.githubusercontent.com/tikari77/bravefilter/main/dist/filters.txt
    ```
-3. 以後は push すれば Brave が定期的に取り直す（`Expires: 1 day`）。すぐ反映したいときは同画面で「更新」。
+3. 以後は push すれば Brave がバックグラウンドで取り直す（基本は週1回。`Expires: 1 day` を見て早まる可能性あり）。
+
+### すぐ反映させたいとき
+- PC / Android とも `brave://adblock` を開き、カスタムリストの **オフ→オン** で再取得される
+  （画面上部の「リストを更新」はカスタムリストには効かない）
+- それでもダメなら削除して同じ URL で追加し直す
+- push 直後は GitHub 側のキャッシュで最大5分ほど古い内容が返ることがある
 
 ※ raw URL を Brave から読むためリポジトリは **public** にする。
 
