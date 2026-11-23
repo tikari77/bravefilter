@@ -12,6 +12,51 @@
 ! ===== 要素非表示（サイト別） =====
 ! 例: example.com##.sidebar-ad
 
+! --- 30-ebookjapan.txt ---
+! ===== ebookjapan: タイトル等にNGワードを含む作品リンクを非表示 =====
+! --- 異世界・なろう系 ---
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(異世界)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(転生)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(転移)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(追放)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(悪役令嬢)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(聖女)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(チート)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(無双)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(スローライフ)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(最強)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ざまぁ)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ハズレポーション)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(公爵令嬢)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(婚約破棄)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(溺愛)
+! --- 性的表現 ---
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(貞操逆転)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ハーレム)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(お色気)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(巨乳)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(爆乳)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(催眠)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(奴隷)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(種付け)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(寝取られ)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(NTR)
+! --- 風俗・夜職 ---
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(風俗)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ソープ)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(デリヘル)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(キャバ嬢)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ホストクラブ)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(セフレ)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(パパ活)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(売春)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(援交)
+! --- BL ---
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ボーイズラブ)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(オメガバース)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(腐男子)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(BL)
+
 ! --- 90-allow.txt ---
 ! ===== 例外（ブロック解除） =====
 ! 例: @@||example.com/needed.js
