@@ -61,3 +61,8 @@ ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(単話):upward(1)
 ebookjapan.yahoo.co.jp##.matilda-banner-block
 ! --- 特集セクションごと非表示（見出しで判定。「【新刊】異世界マンガ」も含む） ---
 ebookjapan.yahoo.co.jp##h2:has-text(/異世界マンガ|令嬢マンガ/):upward(div.contents-editor)
+! --- 女性マンガ ---
+! 作品カードの補足欄にジャンル「女性マンガ」「女性マンガ誌」が出ているもの
+ebookjapan.yahoo.co.jp##.book-item__supplement:has-text(女性マンガ):upward(li)
+! 見出しに「女性」を含む特集（【新刊】少女・女性マンガ、○○ × 少女・女性 など）
+ebookjapan.yahoo.co.jp##h2:has-text(女性):upward(div.contents-editor)
