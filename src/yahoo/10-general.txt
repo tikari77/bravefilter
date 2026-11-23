@@ -1,0 +1,2 @@
+! ===== Yahoo! JAPAN =====
+! 例: news.yahoo.co.jp##.some-ad

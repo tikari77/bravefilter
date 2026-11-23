@@ -1,0 +1,9 @@
+! Title: tikari's Brave filters (Yahoo! JAPAN)
+! Description: Yahoo! JAPAN 向けの個人用フィルタ（https://github.com/tikari77/bravefilter）
+! Homepage: https://github.com/tikari77/bravefilter
+! Expires: 1 day
+! Version: 202611231524
+
+! --- 10-general.txt ---
+! ===== Yahoo! JAPAN =====
+! 例: news.yahoo.co.jp##.some-ad

@@ -9,8 +9,8 @@ jobs:
         run: |
           ./scripts/build.sh
           # Version 行はタイミングで変わるので除外して比較
-          if ! git diff --quiet -I '^! Version:' -- dist/filters.txt; then
-            echo "::error::dist/filters.txt が古い。scripts/build.sh を実行してコミットして"
-            git diff -- dist/filters.txt
+          if ! git diff --quiet -I '^! Version:' -- dist/ || [ -n "$(git ls-files --others -- dist/)" ]; then
+            echo "::error::dist が古い。scripts/build.sh を実行してコミットして"
+            git status --short -- dist/; git diff -- dist/
             exit 1
           fi
