@@ -1,0 +1,5 @@
+# リンク先ドメインで消す（Yahoo! JAPAN トップのおすすめ記事欄）
+# trilltrill.jp には TRILL ニュース / ハウコレ / grape / ママリ / andGIRL / ベビーカレンダー 等が載る
+trilltrill.jp
+# Yahoo!ライフマガジン系（わんちゃんホンポ / 4MEEE / ねこちゃんホンポ 等）も消すなら次の行の # を外す
+# article.yahoo.co.jp

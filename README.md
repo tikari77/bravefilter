@@ -41,10 +41,11 @@ Brave 用の個人カスタムフィルタリスト（Adblock Plus / uBlock 形�
 
 Yahoo! JAPAN トップ（PC/スマホ）と Yahoo!ニュースで、記事カードを丸ごと消す。
 
+- `src/yahoo/ng-domains.list` … 消したいリンク先ドメイン（トップの外部記事。例: trilltrill.jp）
 - `src/yahoo/ng-sources.list` … 消したいニュース元（媒体名）を1行に1つ
 - `src/yahoo/ng-keywords.list` … 消したいキーワードを1行に1つ
 
-`src/yahoo/gen.sh` がこの2つからルールを生成する（build 時に自動）。
+`src/yahoo/gen.sh` がこれらからルールを生成する（build 時に自動）。
 カードの文字（見出し＋媒体名）に語が含まれていれば消えるので、どちらのリストに書いても動作は同じ。
 
 ## ルールを追加する

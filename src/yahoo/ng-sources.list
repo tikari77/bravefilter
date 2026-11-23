@@ -1,3 +1,64 @@
-# 消したいニュース元（記事カードに表示される媒体名）を1行に1つ
-# 例:
-# 女性自身
+# 消したいニュース元（記事カードに表示される媒体名。部分一致）を1行に1つ
+# 不要な行は削除するか先頭に # を付ける
+
+# --- こたつ記事・PV狙い系 ---
+Hint-Pot
+ENCOUNT
+よろず～ニュース
+まいどなニュース
+ほ・とせなNEWS
+LIMO
+THE GOLD ONLINE
+ファイナンシャルフィールド
+CoCoKARAnext
+マグミクス
+めざましmedia
+エンタメNEXT
+ピンズバNEWS
+Fav-Log by ITmedia
+オトナンサー
+ねとらぼ
+J-CASTニュース
+進撃のグルメ
+メディカルドック
+THE ANSWER
+
+# --- スポーツ新聞系 ---
+スポーツ報知
+馬トク報知
+日刊スポーツ
+スポニチ
+デイリースポーツ
+サンケイスポーツ
+東スポ
+中日スポーツ
+西スポWEB OTTO!
+
+# --- 女性誌・女性向け ---
+女性自身
+週刊女性PRIME
+NEWSポストセブン
+女子SPA！
+CHANTO WEB
+ESSE-online
+HALMEK up
+婦人公論.jp
+LASISA
+FRaU
+Web eclat
+OTONA SALONE
+mi-mollet
+with online
+VOCE
+NET ViVi
+ウィメンズヘルス
+フィガロジャポン
+たまひよONLINE
+
+# --- 週刊誌・タブロイド ---
+SmartFLASH
+FRIDAY
+文春オンライン
+デイリー新潮
+SPA!
+集英社オンライン
