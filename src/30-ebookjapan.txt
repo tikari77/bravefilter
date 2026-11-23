@@ -16,6 +16,7 @@ ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ハズレポーション):up
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(公爵令嬢):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(婚約破棄):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(溺愛):upward(1)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(領主):upward(1)
 ! --- 性的表現 ---
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(貞操逆転):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ハーレム):upward(1)
@@ -44,6 +45,6 @@ ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(腐男子):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(BL):upward(1)
 ! --- 販売形態 ---
 ! タイマー無料（表紙に「タイマー無料」バッジ画像が付く作品）
-ebookjapan.yahoo.co.jp##li:has(> a[href*="/books/"] img[alt="タイマー無料"])
+ebookjapan.yahoo.co.jp##img[alt="タイマー無料"]:upward(li)
 ! 単話作品（タイトルに【単話版】【単話売】【単話】など）
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(単話):upward(1)
