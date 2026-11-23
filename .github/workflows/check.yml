@@ -1,0 +1,16 @@
+name: check
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dist が src から生成された内容と一致するか確認
+        run: |
+          ./scripts/build.sh
+          # Version 行はタイミングで変わるので除外して比較
+          if ! git diff --quiet -I '^! Version:' -- dist/filters.txt; then
+            echo "::error::dist/filters.txt が古い。scripts/build.sh を実行してコミットして"
+            git diff -- dist/filters.txt
+            exit 1
+          fi

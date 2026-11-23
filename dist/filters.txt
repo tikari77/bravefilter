@@ -1,0 +1,17 @@
+! Title: tikari's Brave filters
+! Description: 個人用 Brave カスタムフィルタ（https://github.com/tikari77/bravefilter）
+! Homepage: https://github.com/tikari77/bravefilter
+! Expires: 1 day
+! Version: 202611231353
+
+! --- 10-general.txt ---
+! ===== 全サイト共通 =====
+! 例: ||example.com/ads/*
+
+! --- 20-cosmetic.txt ---
+! ===== 要素非表示（サイト別） =====
+! 例: example.com##.sidebar-ad
+
+! --- 90-allow.txt ---
+! ===== 例外（ブロック解除） =====
+! 例: @@||example.com/needed.js

@@ -1,0 +1,8 @@
+#!/bin/bash
+# コミット前に dist/filters.txt を再生成してステージする
+set -e
+cd "$(git rev-parse --show-toplevel)"
+if git diff --cached --name-only | grep -q '^src/'; then
+  ./scripts/build.sh
+  git add dist/filters.txt
+fi
