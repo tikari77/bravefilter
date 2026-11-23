@@ -37,6 +37,16 @@ Brave 用の個人カスタムフィルタリスト（Adblock Plus / uBlock 形�
 
 `src/<名前>/00-header.txt`（Title などを書く）とルールファイルを作れば、build で `dist/<名前>.txt` ができる。
 
+## Yahoo! JAPAN リスト（dist/yahoo.txt）
+
+Yahoo! JAPAN トップ（PC/スマホ）と Yahoo!ニュースで、記事カードを丸ごと消す。
+
+- `src/yahoo/ng-sources.list` … 消したいニュース元（媒体名）を1行に1つ
+- `src/yahoo/ng-keywords.list` … 消したいキーワードを1行に1つ
+
+`src/yahoo/gen.sh` がこの2つからルールを生成する（build 時に自動）。
+カードの文字（見出し＋媒体名）に語が含まれていれば消えるので、どちらのリストに書いても動作は同じ。
+
 ## ルールを追加する
 
 ```sh
