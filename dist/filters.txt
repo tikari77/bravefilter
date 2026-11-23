@@ -2,7 +2,7 @@
 ! Description: 個人用 Brave カスタムフィルタ（https://github.com/tikari77/bravefilter）
 ! Homepage: https://github.com/tikari77/bravefilter
 ! Expires: 1 day
-! Version: 202611231428
+! Version: 202611231432
 
 ! --- 10-general.txt ---
 ! ===== 全サイト共通 =====
@@ -36,6 +36,10 @@ ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(魔術師):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(騎士):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(召喚):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(暮らし):upward(1)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(令嬢):upward(1)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(皇女):upward(1)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(悪役):upward(1)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ヒーラー):upward(1)
 ! --- 性的表現 ---
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(貞操逆転):upward(1)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ハーレム):upward(1)
@@ -70,6 +74,8 @@ ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(単話):upward(1)
 ! --- バナー ---
 ! ページ途中の作品宣伝バナー（文字が画像内にしか無くキーワード判定できないため、まとめて非表示）
 ebookjapan.yahoo.co.jp##.matilda-banner-block
+! --- 特集セクションごと非表示（見出しで判定。「【新刊】異世界マンガ」も含む） ---
+ebookjapan.yahoo.co.jp##h2:has-text(/異世界マンガ|令嬢マンガ/):upward(div.contents-editor)
 
 ! --- 90-allow.txt ---
 ! ===== 例外（ブロック解除） =====
