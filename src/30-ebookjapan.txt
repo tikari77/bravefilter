@@ -28,6 +28,19 @@ ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ヒーラー):upward(li)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(求婚):upward(li)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(女王):upward(li)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(嫁):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(魔王):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(勇者):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(公女):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(討伐):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(捕虜):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(英雄):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(万能):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(追い出):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(シスコン):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(義母):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(義姉):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(元カノ):upward(li)
+ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(配信者):upward(li)
 ! --- 性的表現 ---
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(貞操逆転):upward(li)
 ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(ハーレム):upward(li)
@@ -108,6 +121,13 @@ ebookjapan.yahoo.co.jp##a[href*="/books/"]:has-text(単話):upward(li)
 ebookjapan.yahoo.co.jp##.matilda-banner-block
 ! --- 特集セクションごと非表示（見出しで判定。「【新刊】異世界マンガ」も含む） ---
 ebookjapan.yahoo.co.jp##h2:has-text(/異世界マンガ|令嬢マンガ/):upward(div.contents-editor)
+! --- トップのおすすめ系セクションごと非表示（見出しで判定。枠の種類が分からないので候補の親を全部試す） ---
+ebookjapan.yahoo.co.jp##h2:has-text(/今読まれているマンガ|上乗せ|週替わりSALE|先行配信/):upward(div.contents-editor)
+ebookjapan.yahoo.co.jp##h2:has-text(/今読まれているマンガ|上乗せ|週替わりSALE|先行配信/):upward(.contents-sales)
+ebookjapan.yahoo.co.jp##h2:has-text(/今読まれているマンガ|上乗せ|週替わりSALE|先行配信/):upward(.contents-ranking)
+! --- 画面下に浮くキャンペーンバナー（コミックウィークエンド等） ---
+ebookjapan.yahoo.co.jp##.comic-weekend-banner
+ebookjapan.yahoo.co.jp##.notice-banner:has(.comic-weekend-banner)
 ! --- 女性マンガ ---
 ! 作品カードの補足欄にジャンル「女性マンガ」「女性マンガ誌」が出ているもの
 ebookjapan.yahoo.co.jp##.book-item__supplement:has-text(女性マンガ):upward(li)
