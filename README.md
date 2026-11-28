@@ -23,7 +23,7 @@ Brave 用の個人カスタムフィルタリスト（Adblock Plus / uBlock 形�
    https://raw.githubusercontent.com/tikari77/bravefilter/main/dist/yahoo.txt
    ```
    リストごとに別々に登録する（使いたいものだけ）。
-3. 以後は push すれば Brave がバックグラウンドで取り直す（基本は週1回。`Expires: 1 day` を見て早まる可能性あり）。
+3. 以後は push すれば Brave がバックグラウンドで取り直す（基本は週1回。`Expires: 1 hours` を見て早まる可能性あり。Android で効くかは未確認）。
 
 ### すぐ反映させたいとき
 - PC / Android とも `brave://adblock` を開き、カスタムリストの **オフ→オン** で再取得される
