@@ -1,8 +1,8 @@
 ! Title: tikari's Brave filters
 ! Description: 個人用 Brave カスタムフィルタ（https://github.com/tikari77/bravefilter）
 ! Homepage: https://github.com/tikari77/bravefilter
-! Expires: 1 day
-! Version: 202611231719
+! Expires: 1 hours
+! Version: 202611281043
 
 ! --- 10-general.txt ---
 ! ===== 全サイト共通 =====
